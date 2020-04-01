@@ -171,8 +171,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         });
     }
-
-
     // 1. Lấy được chuỗi gọi request , với 2 tham số đầu vào là điểm bắt đầu và điểm kết thúc
     private String getRequestUrl(LatLng origin, LatLng dest) {
         //Value of origin
