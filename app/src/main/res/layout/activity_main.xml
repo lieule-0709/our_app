@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/mymap"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </fragment>
+
+    <Button
+    android:id="@+id/btshow"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:translationX="8dp"
+    android:translationY="600dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAllCaps="false"
+    android:textColor="#322424"
+    android:textSize="17sp"
+    android:background="#89D5CD"
+    android:text="    Show   "
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/mymap"
+    app:layout_constraintVertical_bias="0.523" />
+
+    <Button
+        android:id="@+id/btshow_vehicle"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:translationX="180dp"
+        android:translationY="600dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="#322424"
+        android:textSize="17sp"
+        android:background="#89D5CD"
+        android:text="My vehicle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mymap"
+        app:layout_constraintVertical_bias="0.523" />
+
+
+
+</FrameLayout>
